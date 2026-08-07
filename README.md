@@ -1,5 +1,6 @@
-## project structure
+## Project Structure
 
+```text
 titanic-ml-project/
 ├── training/
 │   ├── Dockerfile
@@ -13,6 +14,7 @@ titanic-ml-project/
 │   ├── app.py
 │   └── models/
 ├── notebooks/
-│    └── expolration.ipynb
-├──.gitignore   
+│   └── expolration.ipynb
+├── .gitignore
 └── README.md
+```
