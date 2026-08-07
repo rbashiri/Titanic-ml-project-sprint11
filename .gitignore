@@ -1,0 +1,64 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Build and packaging artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Test, lint, and type-check caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment variables and local config
+.env
+.env.*
+.envrc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# ML artifacts and local runtime outputs
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+*.onnx
+mlruns/
+
+# Project-specific generated assets
+models/
+data/
+**/models/
+**/data/
+serving/models/
+training/data/processed/
+logs/
+tmp/
